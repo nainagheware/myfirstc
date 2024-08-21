@@ -17,3 +17,7 @@ fi
 
 # Clean up the compiled executable
 rm hello
+
+git add .
+git commit -m "update" .
+git push origin main
