@@ -6,17 +6,19 @@ void main ()
     char sec;
     char k [4];
     printf("Enter your name: \n");
-    scanf("%s", &name );
+    scanf("%c", &name );
     getchar();
     printf("enter your class:\n");
     scanf("%d ", &class );
+    getchar();
     printf("enter your sec:\n");
     scanf("%c", &sec );
     getchar();
     printf("enter your age:\n");
     scanf("%d", &age );
+    getchar()
     printf("Would you like to participate in kalakumbh? \n");
-    scanf("%s",&k);
+    scanf("%c",&k);
     getchar();
     printf("Name:%s\n",name);
     printf("Class;%d\n",class);
