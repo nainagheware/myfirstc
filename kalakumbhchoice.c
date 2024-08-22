@@ -3,7 +3,7 @@ void main ()
 {
     char name [20];
     int age;
-    int class
+    int class;
     char sec;
     char choice [3];
     printf("Enter your name: \n");
@@ -21,5 +21,5 @@ void main ()
     printf("Would you like to participate in kalakumbh? \n");
     scanf("%c",&choice);
     getchar();
-    printf("name,"of class",class,sec," has chosen,"choice," to participate in kalakumbh.");
+    printf("name," of class",class,sec," has chosen,"choice," to participate in kalakumbh."");
 }
