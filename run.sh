@@ -3,6 +3,7 @@
 # Compile the C program
 gcc -o hello hello.c
 gcc -o sum sum.c
+gcc -o SI SI.c
 
 # Check if the compilation was successful
 if [ $? -eq 0 ]; then
@@ -10,7 +11,8 @@ if [ $? -eq 0 ]; then
     
     # Run the compiled program
     # ./hello
-    ./sum
+    # ./sum
+    ./SI
 else
     echo "Compilation failed."
 fi
