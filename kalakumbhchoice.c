@@ -2,7 +2,9 @@
 void main ()
 {
     char name [20];
-    int n, class, sec, age, k;
+    int class, age, ;
+    char sec;
+    char k [4];
     printf("Enter your name: \n");
     scanf("%s\n", &n );
     get char();
