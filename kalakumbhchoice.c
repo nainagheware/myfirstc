@@ -16,7 +16,7 @@ void main ()
     getchar();
     printf("enter your age:\n");
     scanf("%d", &age );
-    getchar()
+    getchar();
     printf("Would you like to participate in kalakumbh? \n");
     scanf("%c",&k);
     getchar();
