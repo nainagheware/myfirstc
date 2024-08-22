@@ -4,6 +4,7 @@
 gcc -o hello hello.c
 gcc -o sum sum.c
 gcc -o SI SI.c
+gcc -o discount discount.c
 
 # Check if the compilation was successful
 if [ $? -eq 0 ]; then
@@ -12,7 +13,8 @@ if [ $? -eq 0 ]; then
     # Run the compiled program
     # ./hello
     # ./sum
-    ./SI
+    # ./SI
+    ./discount
 else
     echo "Compilation failed."
 fi
