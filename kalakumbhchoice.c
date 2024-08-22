@@ -10,13 +10,11 @@ void main ()
     getchar();
     printf("enter your class:\n");
     scanf("%d \n", &class );
-    getchar();
     printf("enter your sec:\n");
     scanf("%c \n", &sec );
     getchar();
     printf("enter your age:\n");
     scanf("%d \n", &age );
-    getchar();
     printf("Would you like to participate in kalakumbh? \n");
     scanf("%s\n",&k);
     getchar();
