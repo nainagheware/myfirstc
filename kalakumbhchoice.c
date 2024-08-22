@@ -21,5 +21,5 @@ void main ()
     printf("Would you like to participate in kalakumbh? \n");
     scanf("%c",&choice);
     getchar();
-    printf("name,"of class",class,sec," has chosen,"choice," to participate in kalakumbh."");
+    printf("name," )of class",class,sec," has chosen,"choice," to participate in kalakumbh."");
 }
