@@ -6,6 +6,7 @@ gcc -o sum sum.c
 gcc -o SI SI.c
 gcc -o discount discount.c
 gcc -o kalakumbhchoice kalakumbhchoice.c
+gcc -o 3nos 3nos.c
 
 # Check if the compilation was successful
 if [ $? -eq 0 ]; then
@@ -16,7 +17,8 @@ if [ $? -eq 0 ]; then
     # ./sum
     # ./SI
     # ./discount
-    ./kalakumbhchoice 
+    # ./kalakumbhchoice 
+    ./3nos
 else
     echo "Compilation failed."
 fi
