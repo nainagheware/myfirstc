@@ -12,12 +12,9 @@ void main ()
     scanf("%d ", &class );
     printf("enter your sec:\n");
     scanf("%s", &sec );
-    getchar();
     printf("enter your age:\n");
     scanf("%d", &age );
-    getchar();
     printf("Would you like to participate in kalakumbh? \n");
     scanf("%s",&choice);
-    getchar();
     printf("name," of class",class,sec,"has chosen,"choice,", to participate in kalakumbh.);
 }
