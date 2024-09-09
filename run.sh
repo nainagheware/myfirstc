@@ -17,8 +17,8 @@ if [ $? -eq 0 ]; then
     # ./sum
     # ./SI
     # ./discount
-    # ./kalakumbhchoice 
-    ./3nos
+    ./kalakumbhchoice 
+    # ./3nos
 else
     echo "Compilation failed."
 fi

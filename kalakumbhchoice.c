@@ -8,18 +8,16 @@ void main ()
     char choice [3];
     printf("Enter your name: \n");
     scanf("%s", &name );
-    getchar();
     printf("enter your class:\n");
     scanf("%d ", &class );
-    getchar();
     printf("enter your sec:\n");
-    scanf("%c", &sec );
+    scanf("%s", &sec );
     getchar();
     printf("enter your age:\n");
     scanf("%d", &age );
     getchar();
     printf("Would you like to participate in kalakumbh? \n");
-    scanf("%c",&choice);
+    scanf("%s",&choice);
     getchar();
-    printf("name,")f class",class,sec,"has chosen,"choice,", to participate in kalakumbh.);
+    printf("name," of class",class,sec,"has chosen,"choice,", to participate in kalakumbh.);
 }
