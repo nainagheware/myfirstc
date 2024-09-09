@@ -11,7 +11,7 @@ void main ()
     printf("enter your class:\n");
     scanf("%d ", &class );
     printf("enter your sec:\n");
-    scanf("%s", &sec );
+    scanf("%c", &sec );
     printf("enter your age:\n");
     scanf("%d", &age );
     printf("Would you like to participate in kalakumbh? \n");
