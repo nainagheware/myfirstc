@@ -3,7 +3,7 @@ void main ()
 {
     char name [20];
     int age,class;
-    char sec;
+    char sec [1];
     char choice [3];
     printf("Enter your name: \n");
     scanf("%s", &name );
@@ -12,8 +12,8 @@ void main ()
     scanf("%d", &class );
     printf("Your class:%d\n",class);
     printf("enter your sec:\n");
-    scanf("%c", &sec );
-    printf("Your sec:%c\n",sec);
+    scanf("%s", &sec );
+    printf("Your sec:%s\n",sec);
     printf("enter your age:\n");
     scanf("%d", &age );
     printf("Your age:%d\n",age);
