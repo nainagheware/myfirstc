@@ -3,7 +3,7 @@ void main ()
 {
     char name [20];
     int age,class;
-    char sec ;
+    char sec [1];
     char choice [3];
     printf("Enter your name: \n");
     scanf("%s", &name );
