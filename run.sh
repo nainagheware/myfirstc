@@ -21,8 +21,8 @@ if [ $? -eq 0 ]; then
     # ./discount
     #./kalakumbhchoice 
     # ./3nos
-    #./3sidesoftri
-    ./3asoftri
+    ./3sidesoftri
+    #./3asoftri
 else
     echo "Compilation failed."
 fi

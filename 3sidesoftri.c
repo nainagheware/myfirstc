@@ -8,6 +8,6 @@ if (a!=b && a!=c && b!=c)
     printf("it is a scalene triangle");
 else if(a==b || a==c || b==c)
     printf("it is an isosceles triangle");
-else (a==b && a==c);
+else if(a==b && a==c)
     printf("it is a equilateral triangle");
 }
