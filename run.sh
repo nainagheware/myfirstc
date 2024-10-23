@@ -8,7 +8,7 @@ gcc -o discount discount.c
 gcc -o kalakumbhchoice kalakumbhchoice.c
 gcc -o 3nos 3nos.c
 gcc -o 3sidesoftri 3sidesoftri.c
-gcc -o 3<softri 3<softri.c
+gcc -o 3asoftri 3asoftri.c
 
 # Check if the compilation was successful
 if [ $? -eq 0 ]; then
@@ -22,7 +22,7 @@ if [ $? -eq 0 ]; then
     #./kalakumbhchoice 
     # ./3nos
     #./3sidesoftri
-    ./3<softri
+    ./3asoftri
 else
     echo "Compilation failed."
 fi
