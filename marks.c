@@ -5,6 +5,7 @@ int a,b,c,d,e,p;
 printf("enter marks of 5 subs");
 scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
 p= (a+b+c+d+e/500)*100;
+printf("%d",p);
 if (p>80)
     printf("Distinction");
 else if (p>=60 && p<=80)
