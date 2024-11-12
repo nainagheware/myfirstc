@@ -13,6 +13,7 @@ gcc -o comboofstoof comboofstoof.c
 gcc -o ascendingo ascendingo.c
 gcc -o inputtime inputtime.c
 gcc -o quads quads.c
+gcc -o compol compol.c
 
 # Check if the compilation was successful
 if [ $? -eq 0 ]; then
@@ -30,7 +31,8 @@ if [ $? -eq 0 ]; then
     #./comboofstoof
     #./ascendingo
     #./inputtime
-    ./quads
+    #./quads
+    ./compol
 else
     echo "Compilation failed."
 fi
