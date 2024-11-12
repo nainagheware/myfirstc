@@ -2,7 +2,7 @@
 void main ()
 {
 int a,b;
-printf(enter 2 integers);
+printf("enter 2 integers");
 scanf("%d%d",&a,&b);
 if (a>0 && b>0)
     printf("I Quad");
