@@ -3,7 +3,7 @@ void main()
 {
 char c;
 printf("enter a alphabet/num/special charachter");
-scanf("%c",&a);
+scanf("%c",&c);
 if (c>=65 && c<=90)
 {
     if(c=='a' ||c=='e' ||c=='i'||c=='o'|| c=='u')
