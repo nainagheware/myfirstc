@@ -1,5 +1,5 @@
 #include<stdio.h>
-void ()
+void main()
 {
 int a,b,c;
 printf("enter 3nos");
