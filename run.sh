@@ -26,7 +26,7 @@ if [ $? -eq 0 ]; then
     #./3sidesoftri
     #./3asoftri
     #./comboofstoof
-    ./ascendingo.c
+    ./ascendingo
 else
     echo "Compilation failed."
 fi
