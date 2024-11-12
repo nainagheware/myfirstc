@@ -11,6 +11,7 @@ gcc -o 3sidesoftri 3sidesoftri.c
 gcc -o 3asoftri 3asoftri.c
 gcc -o comboofstoof comboofstoof.c
 gcc -o ascendingo ascendingo.c
+gcc -o inputtime inputtime.c
 
 # Check if the compilation was successful
 if [ $? -eq 0 ]; then
@@ -26,7 +27,8 @@ if [ $? -eq 0 ]; then
     #./3sidesoftri
     #./3asoftri
     #./comboofstoof
-    ./ascendingo
+    #./ascendingo
+    ./inputtime
 else
     echo "Compilation failed."
 fi
