@@ -14,6 +14,7 @@ gcc -o ascendingo ascendingo.c
 gcc -o inputtime inputtime.c
 gcc -o quads quads.c
 gcc -o compol compol.c
+gcc -o marks marks.c
 
 # Check if the compilation was successful
 if [ $? -eq 0 ]; then
@@ -32,7 +33,8 @@ if [ $? -eq 0 ]; then
     #./ascendingo
     #./inputtime
     #./quads
-    ./compol
+    #./compol
+    ./marks
 else
     echo "Compilation failed."
 fi
