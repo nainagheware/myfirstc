@@ -9,6 +9,7 @@ gcc -o kalakumbhchoice kalakumbhchoice.c
 gcc -o 3nos 3nos.c
 gcc -o 3sidesoftri 3sidesoftri.c
 gcc -o 3asoftri 3asoftri.c
+gcc -o comboofstoof.c comboofstoof.c
 
 # Check if the compilation was successful
 if [ $? -eq 0 ]; then
@@ -21,8 +22,9 @@ if [ $? -eq 0 ]; then
     # ./discount
     #./kalakumbhchoice 
     # ./3nos
-    ./3sidesoftri
+    #./3sidesoftri
     #./3asoftri
+    ./comboofstoof
 else
     echo "Compilation failed."
 fi
