@@ -4,7 +4,7 @@ void main ()
 int s,c,ns;
 printf("enter sales");
 scanf("%d",&s);
-if (s<1000)
+if (s=<1000)
     printf("no commision");
 else if (s<2500 && s>1000)
 {
