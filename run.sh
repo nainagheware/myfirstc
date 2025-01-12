@@ -31,12 +31,12 @@ if [ $? -eq 0 ]; then
     #./3sidesoftri
     #./3asoftri
     #./comboofstoof
-    ./ascendingo
+    #./ascendingo
     #./inputtime
     #./quads
     #./compol
     #./marks
-    #./loopformul2
+    ./loopformul2
 else
     echo "Compilation failed."
 fi
