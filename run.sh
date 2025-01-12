@@ -15,6 +15,7 @@ gcc -o inputtime inputtime.c
 gcc -o quads quads.c
 gcc -o compol compol.c
 gcc -o marks marks.c
+gcc -o loopformul2 loopformul2.c
 
 # Check if the compilation was successful
 if [ $? -eq 0 ]; then
@@ -34,7 +35,8 @@ if [ $? -eq 0 ]; then
     #./inputtime
     #./quads
     #./compol
-    ./marks
+    #./marks
+    ./loopformul2
 else
     echo "Compilation failed."
 fi
