@@ -7,23 +7,23 @@ scanf("%d%d%d",&a,&b,&c);
 if (a>b && a>c)
 {
     if(b>c)
-        printf("&d",&c"<&d",&b"<&d",&a);
+        printf("%d<%d<%d",&c,&b,&a);
     else
-        printf("&d",&b"<&d",&c"<&d",&a);
+        printf("%d<%d<%d",&b,&c,&a);
 }
 else if (b>c && b>a)
 {
     if(a>c)
-        printf("&d",&c"<&d",&a"<&d",&b);
+        printf("%d<%d<%d",&c,&a,&b);
     else
-        printf("&d",&a"<&d",&c"<&d",&b);
+        printf("%d<%d<%d",&a,&c,&b);
 }
 else if (c>b && c>a)
 {
     if(b>a)
-        printf("&d",&a"<&d",&b"<&d",&c);
+        printf("%d<%d<%d",&a,&b,&c);
     else
-        printf("&d",&b"<&d",&a"<&d",&c);
+        printf("%d<%d<%d",&b,&a,&c);
 }
 else
     printf("error");
