@@ -7,6 +7,6 @@ scanf("%d%d",&x,&y);
 for(i=1;i<=10;i++)
 {
     z= 3*x*x+y*y;
-    printf("\nz=%d",z);
 }
+printf("\nz=%d",z);
 }
