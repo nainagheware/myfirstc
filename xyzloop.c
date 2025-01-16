@@ -1,12 +1,15 @@
 #include<stdio.h>
 void main ()
 {
-int x,y,z,i;
+int x,y,z,;
 printf("Enter the value of x,y between 1-10\n");
 scanf("%d%d",&x,&y);
-for(i=1;i<=10;i++)
+for(x=1;x<=10;x++)
 {
-    z= 3*x*x+y*y;
+   for(y=1;y<=10;y++)
+   {
+     z= 3*x*x+y*y;
+   }
 }
 printf("\nz=%d",z);
 }
