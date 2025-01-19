@@ -17,6 +17,7 @@ gcc -o compol compol.c
 gcc -o marks marks.c
 gcc -o loopformul2 loopformul2.c
 gcc -o xyzloop xyzloop.c
+gcc -o predoutput predoutput.c
 
 # Check if the compilation was successful
 if [ $? -eq 0 ]; then
@@ -38,7 +39,8 @@ if [ $? -eq 0 ]; then
     #./compol
     #./marks
     #./loopformul2
-    ./xyzloop
+    #./xyzloop
+    ./predoutput
 else
     echo "Compilation failed."
 fi
