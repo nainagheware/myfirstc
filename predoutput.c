@@ -7,7 +7,8 @@ void main ()
     if (i%2==0)
         printf("%d",i);
     else
-        printf("\nnot valid");
+        {printf("\nnot valid");
         printf("%d",x);
     }
+}
 }
