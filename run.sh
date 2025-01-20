@@ -39,8 +39,8 @@ if [ $? -eq 0 ]; then
     #./compol
     #./marks
     #./loopformul2
-    #./xyzloop
-    ./predoutput
+    ./xyzloop
+    #./predoutput
 else
     echo "Compilation failed."
 fi

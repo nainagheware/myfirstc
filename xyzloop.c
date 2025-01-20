@@ -2,14 +2,9 @@
 void main ()
 {
 int x,y,z;
-printf("Enter the value of x,y between 1-10\n");
-scanf("%d%d",&x,&y);
-for(x=1;x<=10;x++)
+for(x=1,y=1;x<=10 && y<=10;x++,y++)
 {
-   for(y=1;y<=10;y++)
-   {
-     z= 3*x*x+y*y;
-   }
+  z=3*x*x+y*y;
+  printf("\n%d",z);
 }
-printf("\nz=%d",z);
 }
