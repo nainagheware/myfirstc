@@ -28,5 +28,4 @@ getchar();
 printf("NRI(Y/N)->\n");
 scanf("%c\n", &choice);
 getchar();
-
 }
