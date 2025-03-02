@@ -42,7 +42,7 @@ if [ $? -eq 0 ]; then
     #./loopformul2
     #./xyzloop
     #./predoutput
-    #./project2
+    ./project2
 else
     echo "Compilation failed."
 fi

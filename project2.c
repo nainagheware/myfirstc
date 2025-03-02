@@ -29,16 +29,18 @@ printf("NRI(Y/N)->\n");
 scanf("%c\n", &choice);
 getchar();
 do
-{
+{if(k>0)
 price=k*40;
 total+=price;
+else if (a>0)
 price=a*100;
 total+=price;
+
  if(choice=='y'||choice=='Y')
 total2+=50;
-if(choice=='y'||choice=='Y')   
+else if(choice=='y'||choice=='Y')   
 total2+=60;
-if(choice=='y'||choice=='Y')
+else if(choice=='y'||choice=='Y')
 total2+=70;
 gt=total+total2;
 printf("Total price is %d\n", gt);
