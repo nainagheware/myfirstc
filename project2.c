@@ -29,7 +29,8 @@ printf("NRI(Y/N)->\n");
 scanf("%c\n", &choice);
 getchar();
 do
-{if(k>0)
+{
+if(k>0)
 price=k*40;
 total+=price;
 else if (a>0)
