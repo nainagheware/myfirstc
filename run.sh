@@ -18,6 +18,7 @@ gcc -o marks marks.c
 gcc -o loopformul2 loopformul2.c
 gcc -o xyzloop xyzloop.c
 gcc -o predoutput predoutput.c
+gcc -o project2 project2.c
 
 # Check if the compilation was successful
 if [ $? -eq 0 ]; then
@@ -40,7 +41,8 @@ if [ $? -eq 0 ]; then
     #./marks
     #./loopformul2
     #./xyzloop
-    ./predoutput
+    #./predoutput
+    ./project2.c
 else
     echo "Compilation failed."
 fi
