@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main ()
 {
-int k,a;
-char choice;
+int k,a,price=0,total=0,total2=0,gt;
+char choice,end;
 printf("\tBOTANICAL GARDENS\n");
 printf("\tLALBAGH\n");
 printf("Timings: 9am to 9pm\n\n");
@@ -28,4 +28,21 @@ getchar();
 printf("NRI(Y/N)->\n");
 scanf("%c\n", &choice);
 getchar();
+do
+{
+price=k*40;
+total+=price;
+price=a*100;
+total+=price;
+ if(choice=='y'||choice=='Y')
+total2+=50;
+if(choice=='y'||choice=='Y')   
+total2+=60;
+if(choice=='y'||choice=='Y')
+total2+=70;
+gt=total+total2;
+printf("Total price is %d\n", gt);
+printf("To quit press 'q'->\n");
+}while(end='q');
+
 }
